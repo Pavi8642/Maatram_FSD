@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link{
+            width:20px;
+            height:20px;
+            background-color: cornflowerblue;
+        }
+        a:visited{
+            background-color: coral;
+        }
+        a:hover{
+            background-color: palegreen;
+            border-radius: 20px;
+        }
+        a:active{
+            background: rosybrown;
+            color:blue;
+        }
+        .box>p:first-child{
+            background-color: chartreuse;
+
+        }
+        p::before{
+            content:"start";
+            color:red;
+        }
+        p::after{
+            content: "after";
+            color:brown;
+        }
+        input::placeholder{
+            background-color: aqua;
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Admissions</a>
+        <a href="">Apply Now</a>
+        <a href="">Contact</a>
+    </div>
+    <div class="box">
+    <p>One</p>
+    <p>Two</p>
+    <p>Three</p>
+    <p>Four</p>
+    <p>Five</p>
+    <p>Six</p>
+    <p>Seven</p>
+    <p>Eight</p>
+    <p>Nine</p>
+    <p>Ten</p>
+</div>
+<input type="text" placeholder="name">
+</body>
+</html>

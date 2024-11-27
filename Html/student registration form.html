@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1 style="color: #9932CC;font-size: 30px;">
+        <u>STUDENT REGISTRATION FORM</u>
+    </h1> 
+    </center> 
+    <form style="background-color:#9932CC;color: white;">
+        <table>
+            <tr>
+                <td><label>FIRST NAME</Label></td>
+                <td><input type="text" maxlength="30"/>(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td><label>LAST NAME</label></td>
+                <td><input type="text" maxlength="30"/>(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td><label>DATE OF BIRTH</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>EMAIL ID</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label>MOBILE NUMBER</label></td>
+                <td><input type="tel"/ >(10 digit number)</td>
+            </tr> 
+            <tr>
+                <td><label>GENDER</label></td><br>
+                <td><label>Male</label><input type="radio" name="gender" value="male"/>
+                    <label>Female</label><input type="radio" name="gender" value="female"></td>        
+            </tr> 
+            <tr>
+                <td><label>ADDRESS</label></td>
+                <td><textarea rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>CITY</label></td>
+                <td><input type="text" maxlength="30"/>(max 30 characters)</td>
+            </tr>
+            <tr>
+                <td><label>PIN CODE</label></td>
+                <td><input type="number"/ >(6 digit number)</td>
+            </tr>
+            <tr>
+                <td><label>STATE</label></td>
+                <td><input type="text" maxlength="30"/>(max 30 characters)</td>
+            </tr>
+            <tr>
+                <td>COUNTRY</td>
+                <td><input type="text" id="country" value="India" readonly></td>
+            </tr>
+            <tr>
+                <td>HOBBIES</td>
+                <td><label>Drawing</label><input type="checkbox" name="HOBBIES" value="Drawing"/>
+                    <label>Singing</label><input type="checkbox" name="HOBBIES" value="Singing"/>
+                    <label>Dancing</label><input type="checkbox" name="HOBBIES" value="Dancing"/>
+                    <label>Sketching</label><input type="checkbox" name="HOBBIES" value="Sketching"/>
+                    <br/>
+                    <label>Others</label><input type="checkbox" name="HOBBIES" value="Others">
+                    <input type="text"  name="HOBBIES" maxlength="30">
+                </td>
+            </tr>
+            <tr>
+                <td>QUALIFICATION</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td align="center">SI.No.</td>
+                            <td align="center">Examination</td>
+                            <td align="center">Board</td>
+                            <td align="center">Percentage</td>
+                            <td align="center">Year of Passing</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="ClassX" maxlength="30"/></td>
+                            <td><input type="text" name="ClassX" maxlength="30"/></td>
+                            <td><input type="text" name="ClassX" maxlength="30"/></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="ClassXII" maxlength="30"/></td>
+                            <td><input type="text" name="ClassXII" maxlength="30"/></td>
+                            <td><input type="text" name="ClassXII" maxlength="30"/></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="Graduation" maxlength="30"/></td>
+                            <td><input type="text" name="Graduation" maxlength="30"/></td>
+                            <td><input type="text" name="Graduation" maxlength="30"/></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" name="Masters" maxlength="30"/></td>
+                            <td><input type="text" name="Masters" maxlength="30"/></td>
+                            <td><input type="text" name="Masters" maxlength="30"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td align="center">(10 char max)</td>
+                            <td align="center">(upto 2 decimal)</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>COURSES<br/>APPLIED FOR</td>
+                <td><label>BCA</label><input type="radio" name="Course" value="BCA">
+                <label>B.Com</label><input type="radio" name="Course" value="B.Com">
+                <label>B.Sc</label><input type="radio" name="Course" value="B.Sc">
+                <label>B.A</label><input type="radio" name="Course" value="B.A"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset"></td>
+            </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>

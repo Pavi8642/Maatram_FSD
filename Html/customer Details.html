@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Customer Registration</h1>
+    <fieldset style="width:300px;">
+    <form>
+        <fieldset style="width:300px;">
+            <legend>
+                Customer
+            </legend>
+            <table>
+                <tr>
+                    <td><label>Name*</Label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email*</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label>Investment</label></td>
+                    <td><input type="number" min="5000" max="30000"step="2000"></td>
+                </tr>
+                <tr>
+                    <td><label>Date Joined*</label></td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td><label>Active</label></td>
+                    <td><input type="checkbox"></td>
+                </tr>  
+            </table> 
+        </fieldset>
+        <br>
+        <button type="submit" value="submit">OK</button>
+        <button type="cancel" value="cancel">Cancel</button>  
+    </form>                 
+    </fieldset>
+</body>
+</html>

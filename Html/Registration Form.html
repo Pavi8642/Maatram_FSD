@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form>
+            <fieldset style="width:500px;">
+                <legend>
+                    Registration Form
+                </legend>
+                <table>
+                    <tr>
+                        <td><label>First Name :</Label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name :</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>User Name :</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password :</label></td>
+                        <td><input type="Password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Confirm Password :</label></td>
+                        <td><input type="Password" required></td>
+                    </tr> 
+                    <tr>
+                        <td><label>Email:</label></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td><label>Mobile :</label></td>
+                        <td><input type="tel" ></td>
+                    </tr> 
+                    <tr>
+                        <td><label>Gender :</label></td>
+                        <td><input type="radio" name="gender" value="male"/><label>Male</label><br/>
+                        <input type="radio" name="gender" value="female"/><label>Female</label></td>
+                       
+                    </tr> 
+                    <tr>
+                        <td><label>DOB :</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Course :</label></td>
+                        <td>
+                        <select name="course">
+                        <option value="Data Science">Data Science</option>
+                        <option value="MERN">MERN</option>
+                        <option value="AWS">AWS</option>
+                        <option value="Devops">Devops</option>
+                    </select>
+                </td>
+                    </tr>
+                    <tr>
+                        <td><label>Nationality :</label></td>
+                        <td><input type="checkbox"><label>Indian</label>
+                            <input type="checkbox"><label>Others</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Profile :</label></td>
+                        <td><div><img src="data:image/png;base64,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"></div>
+                            <button>Choose file</button>No file chosen<br/></td>
+                    </tr> 
+            </fieldset>
+            <br>
+            <td><button type="submit" value="submit">Submit</button> </td>
+            <td><button type="Reset" value="Reset">Reset</button></td>
+        </table>
+        </form>                 
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            transition-duration: 5s;
+            transition-delay: 3s;
+            transition-property: background-color;
+            transition-timing-function: ease-in-out;
+        }
+        .box:hover{
+            background-color:brown ;
+            border-radius: 50%;
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(0,8,255);
+            margin: 10px;
+            font-size: 2rem;
+            text-align: center;
+            color:azure;
+            transform: translatey(10px,10px);
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 10px;
+            font-size: 2rem;
+            text-align: center;
+            color:azure;
+            transform: rotate(20deg);
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin: 10px;
+            font-size: 2rem;
+            text-align: center;
+            color:azure;
+            transform: scaley(2);
+        }
+        .box4{
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            margin: 10px;
+            font-size: 2rem;
+            text-align: center;
+            color:azure;
+            transform: skew(20deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1">Translate</div>
+    <div class="box2">Rotate</div>
+    <div class="box3">Scale</div>
+    <div class="box4">Skew</div>
+</body>
+</html>

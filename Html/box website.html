@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color:maroon;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            width: 200px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: inline-block;
+
+    
+        }
+
+        .icon {
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+
+        .progress-bar {
+            height: 10px;
+            border-radius: 10px;
+            background-color: #ddd;
+        }
+
+        .yellow {
+            background-color: #ffd700;
+        }
+
+        .blue {
+            background-color: #007bff;
+        }
+
+        .green {
+            background-color: #28a745;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="icon">DESIGN &#9729</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor cum cupiditate harum, eum maxime amet nisi animi quis tempore. Ex quo mollitia suscipit laboriosam natus et, labore vel molestiae.</p>
+            <div class="progress-bar yellow"></div>
+        </div>
+        <div class="card">
+            <div class="icon">DESIGN 
+                <img src="/Html/alarm_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" width="25px" height="25px">
+            </div>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor cum cupiditate harum, eum maxime amet nisi animi quis tempore. Ex quo mollitia suscipit laboriosam natus et, labore vel molestiae.</p>
+            <div class="progress-bar blue"></div>
+        </div>
+        <div class="card">
+            <div class="icon">DESIGN  &#9836</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor cum cupiditate harum, eum maxime amet nisi animi quis tempore. Ex quo mollitia suscipit laboriosam natus et, labore vel molestiae.</p>
+            <div class="progress-bar green"></div>
+        </div>
+    </div>
+</body>
+</html>
